@@ -1,8 +1,8 @@
 {
-  "name": "cdk-workshop",
+  "name": "wild-card-static-app",
   "version": "0.1.0",
   "bin": {
-    "cdk-workshop": "bin/cdk-workshop.js"
+    "wildCardStaticApp": "bin/wildCardStaticApp.js"
   },
   "scripts": {
     "build": "tsc",
@@ -25,9 +25,6 @@
     "@aws-cdk/aws-cloudfront-origins": "^1.91.0",
     "@aws-cdk/aws-route53-targets": "^1.91.0",
     "@aws-cdk/aws-s3-deployment": "^1.91.0",
-    "@aws-cdk/aws-sns": "1.91.0",
-    "@aws-cdk/aws-sns-subscriptions": "1.91.0",
-    "@aws-cdk/aws-sqs": "1.91.0",
     "@aws-cdk/core": "1.91.0"
   }
 }
